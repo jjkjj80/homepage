@@ -1,0 +1,55 @@
+.icon {
+    height: auto;
+    width: 30px;
+}
+
+.header {
+    display: flex;
+    margin: 2rem 1rem;
+}
+
+.aboutImg {
+    display: inline;
+    margin: 2rem 0px 2rem 1rem;
+    height: auto;
+    max-height: 500px;
+    max-width: 1000px;
+    min-width: 100px;
+    flex: 1;
+
+}
+
+.about {
+    display: inline;
+    flex: 2;
+    margin: 2rem 1rem 2rem 0rem;
+    padding-left: 1rem;
+    padding-top: 4rem;
+}
+
+.aboutheader {
+    font-size: 1.5rem;
+}
+
+.aboutlink {
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
+
+@media (max-width: 600px) {
+    .aboutImg {
+        margin-bottom: 0rem;
+    }
+    .about {
+        display: block;
+        margin-top: 0rem;
+    }
+    .header {
+        flex-direction: column;
+    }
+    h2 {
+        color: red;
+    }
+}
+
