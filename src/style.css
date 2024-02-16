@@ -1,6 +1,12 @@
+body {
+    margin: 0;
+}
+
 .icon {
     height: auto;
     width: 30px;
+    display: inline;
+    margin: 10px;
 }
 
 .header {
@@ -51,5 +57,62 @@
     h2 {
         color: red;
     }
+    .footer {
+        flex-direction: column;
+    }
 }
 
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    align-items: center;
+}
+
+.card {
+    height: 220px;
+    width: 200px;
+    border: 1px solid red;
+    margin: 1rem;
+}
+
+.phone {
+    display: inline;
+    margin-left: 5px;
+}
+
+.email {
+    display: inline;
+    margin-left: 5px;
+}
+
+.phoneCont {
+    display: block;
+    display: flex;
+    align-items: center;
+    
+}
+
+.emailCont {
+    display: block;
+    display: flex;
+    align-items: center;
+}
+
+.footerImg {
+    display: inline;
+}
+
+.contact {
+    display: inline;
+    margin: 2rem;
+}
+
+.footer {
+    display: flex;
+    background-color: #A3CAE9;
+    margin: auto
+}
+
+.footerImg {
+    margin: 2rem;
+}
